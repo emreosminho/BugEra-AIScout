@@ -1,0 +1,26 @@
+{
+  "name": "bugera-aiscout-backend",
+  "version": "1.0.0",
+  "description": "Backend service for BugEra AIScout - Playwright DOM analyzer",
+  "main": "server.js",
+  "type": "module",
+  "scripts": {
+    "start": "node server.js",
+    "dev": "node --watch server.js"
+  },
+  "keywords": [
+    "playwright",
+    "dom-analysis",
+    "testing"
+  ],
+  "author": "BugEra Team",
+  "license": "MIT",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "express": "^4.18.2",
+    "playwright": "^1.42.0"
+  },
+  "devDependencies": {
+    "concurrently": "^9.2.1"
+  }
+}
